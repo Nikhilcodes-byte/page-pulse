@@ -4,6 +4,11 @@ async function analyzePage() {
 
     const url = document.getElementById("urlInput").value;
 
+    const button = document.getElementById("analyzeBtn");
+
+    button.disabled = true;
+    button.textContent = "Analyzing...";
+
     const response = await fetch("/analyze", {
 
         method: "POST",
@@ -33,5 +38,8 @@ async function analyzePage() {
     document.getElementById("title").textContent = data.title;
 
     document.getElementById("description").textContent = data.description;
+
+    button.disabled = false;
+    button.textContent = "Analyze";
 
 }
