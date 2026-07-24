@@ -44,13 +44,18 @@ I built this project to improve my backend development skills with Flask, APIs, 
 ## Project Structure
 
 ```
-Page Pulse/
+page-pulse/
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
 ├── Procfile
 ├── runtime.txt
+│
+├── images/
+│   ├── home.png
+│   ├── result.png
+│   └── python-result.png
 │
 ├── static/
 │   ├── style.css
@@ -144,11 +149,17 @@ Expected output:
 
 ## Screenshots
 
-You can add screenshots here after deploying the project.
+### Home Page
 
-- Home Page
-- Analysis of example.com
-- Analysis of python.org
+![Home Page](images/home.png)
+
+### Analysis of example.com
+
+![Analysis Result](images/result.png)
+
+### Analysis of python.org
+
+![Python Analysis](images/python-result.png)
 
 ---
 
@@ -183,6 +194,6 @@ Some features I would like to add in future versions:
 
 **Nikhil Saini**
 
-Computer Science Engineering Student
+Computer Science & Engineering Student
 
-GitHub: https://github.com/Nikhilcodes-byte
+GitHub: [Nikhilcodes-byte](https://github.com/Nikhilcodes-byte)
