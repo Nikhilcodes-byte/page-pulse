@@ -35,6 +35,8 @@ async function analyzePage() {
 
     document.getElementById("words").textContent = data.word_count;
 
+    document.getElementById("missingAlt").textContent = data.missing_alt;
+
     document.getElementById("title").textContent = data.title;
 
     document.getElementById("description").textContent = data.description;
