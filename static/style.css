@@ -231,3 +231,22 @@ header p{
     }
 
 }
+
+/* Logo + Title */
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.logo-title img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.logo-title span {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
