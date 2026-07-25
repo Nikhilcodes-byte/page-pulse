@@ -197,3 +197,9 @@ Some features I would like to add in future versions:
 Computer Science & Engineering Student
 
 GitHub: [Nikhilcodes-byte](https://github.com/Nikhilcodes-byte)
+
+---
+
+## AI Usage
+
+I used AI as a development assistant to understand Flask concepts, troubleshoot bugs, review my code, improve the project documentation, and assist with deployment. I tested every suggested change before applying it, refined the UI, handled error cases, wrote the parser tests, and made the final implementation and design decisions myself.
